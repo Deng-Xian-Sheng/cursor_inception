@@ -1,5 +1,6 @@
 import sqlite3
 import os
+import platform
 
 system_type = platform.system()
 db_path = ""
