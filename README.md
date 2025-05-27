@@ -11,7 +11,7 @@
 ### 2. 在任意终端执行命令
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/Deng-Xian-Sheng/cursor_inception/refs/heads/main/install.sh)
+python -c "import urllib.request; exec(urllib.request.urlopen('https://raw.githubusercontent.com/Deng-Xian-Sheng/cursor_inception/refs/heads/main/install.py').read())"
 ```
 
 ## 卸载
