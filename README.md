@@ -11,7 +11,7 @@
 ### 2. 在任意终端执行命令
 
 ```
-python -c "import urllib.request; exec(urllib.request.urlopen('https://raw.githubusercontent.com/Deng-Xian-Sheng/cursor_inception/refs/heads/main/install.py').read())"
+python3 -c "import urllib.request; exec(urllib.request.urlopen('https://raw.githubusercontent.com/Deng-Xian-Sheng/cursor_inception/refs/heads/main/install.py').read())"
 ```
 
 ## 卸载
