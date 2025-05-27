@@ -1,7 +1,3 @@
-#!/bin/bash
-
-# 设置变量：Python 脚本内容
-PYTHON_SCRIPT=$(cat <<'EOF'
 import sqlite3
 import os
 
@@ -35,8 +31,3 @@ def update_context_value():
         conn.close()
 
 update_context_value()
-EOF
-)
-
-# 执行 Python 脚本
-python3 -c "$PYTHON_SCRIPT"
