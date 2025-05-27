@@ -1,7 +1,15 @@
 import sqlite3
 import os
 
-db_path = os.path.expanduser("~/.config/Cursor/User/globalStorage/state.vscdb")
+system_type = platform.system()
+db_path = ""
+if system_type in ['Linux', 'Darwin']:
+    db_path = os.path.expanduser("~/.config/Cursor/User/globalStorage/state.vscdb")
+elif system_type == 'Windows':
+    db_path = os.path.join(os.getenv('APPDATA'), 'Cursor', 'User', 'globalStorage', 'state.vscdb')
+else:
+    raise OSError(f"Unsupported OS: {system_type}")
+
 target_key = "aicontext.personalContext"
 
 append_text = """
