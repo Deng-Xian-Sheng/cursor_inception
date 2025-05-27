@@ -33,7 +33,7 @@ def update_context_value():
             new_value = current_value + append_text
             cursor.execute("UPDATE ItemTable SET value=? WHERE key=?", (new_value, target_key))
             conn.commit()
-            print("已成功更新 value 字段。")
+            print("已成功更新提示词。")
         else:
             print(f"未找到 key 为 '{target_key}' 的记录。")
     finally:
