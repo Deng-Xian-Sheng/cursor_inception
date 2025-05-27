@@ -1,7 +1,3 @@
-#!/bin/bash
-
-# 封装Python脚本到Shell脚本中
-PYTHON_SCRIPT=$(cat <<'EOF'
 import os
 import platform
 import subprocess
@@ -30,8 +26,3 @@ def open_editor_and_get_input():
 
 if __name__ == '__main__':
     open_editor_and_get_input()
-EOF
-)
-
-# 执行Python代码
-python3 -c "$PYTHON_SCRIPT"
