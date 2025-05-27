@@ -6,6 +6,10 @@
 
 ## 安装
 
+### 1. 退出你的cursor
+
+### 2. 在任意终端执行命令
+
 ```
 bash <(curl -s https://raw.githubusercontent.com/Deng-Xian-Sheng/cursor_inception/refs/heads/main/install.sh)
 ```
