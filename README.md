@@ -26,6 +26,8 @@ python3 -c "import urllib.request; exec(urllib.request.urlopen('https://raw.gith
 
 然后，你需要在弹出的文本编辑器中填写你的新消息，记得`Ctrl + s`保存，然后关闭你的文本编辑器。
 
+然后你需要在cursor执行命令的地方，按下一个回车，这是在告诉它：我把消息写完了。
+
 cursor会按照你的新消息继续执行。
 
 如此往复。
@@ -38,3 +40,6 @@ cursor会按照你的新消息继续执行。
 
 ![image](https://github.com/user-attachments/assets/18773440-19a4-4854-95e1-ab48b72eb56d)
 
+## 开发者附言
+
+这个实现始终，贯彻“不在你的电脑上创建任何文件”的策略，为了获得文本、打开编辑器让用户输入，产生的临时文件会立即删除。
