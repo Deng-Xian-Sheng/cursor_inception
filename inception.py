@@ -31,7 +31,6 @@ def open_editor_and_get_input():
 
         with open(tmp_path, 'r', encoding='utf-8') as f:
             content = f.read()
-            print("\n用户输入的内容：\n")
             print(content)
     finally:
         os.unlink(tmp_path)
