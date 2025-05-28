@@ -30,9 +30,11 @@ cursor会按照你的新消息继续执行。
 
 如此往复。
 
+**我在gemini-2.5-pro上测试，它工作良好**
+
 ## 卸载
 
 打开cursor的设置，删除安装脚本添加的提示词，如图所示：
 
-![image](https://github.com/user-attachments/assets/7a7784f3-9343-4ba2-ad34-99493ab41dbe)
+![image](https://github.com/user-attachments/assets/18773440-19a4-4854-95e1-ab48b72eb56d)
 
