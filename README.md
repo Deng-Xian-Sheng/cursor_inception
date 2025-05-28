@@ -8,11 +8,11 @@
 
 ### 操作系统
 
-[ x ] Windows
+[ ok ] Windows
 
-[ x ] Linux
+[ ok ] Linux
 
-[ x ] macOS
+[ ok ] macOS
 
 ### 其他
 
