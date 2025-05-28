@@ -36,7 +36,7 @@ cursor会按照你的新消息继续执行。
 
 ## 卸载
 
-打开cursor的设置，删除安装脚本添加的提示词，如图所示：
+打开cursor的设置，删除安装脚本追加的提示词，如图所示：
 
 ![image](https://github.com/user-attachments/assets/18773440-19a4-4854-95e1-ab48b72eb56d)
 
