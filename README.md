@@ -24,9 +24,9 @@ python3 -c "import urllib.request; exec(urllib.request.urlopen('https://raw.gith
 
 具体来说，windows下是记事本、macos和linux下是系统自带的文本编辑器。
 
-然后，你需要在弹出的文本编辑器中填写你的新消息，记得`Ctrl + s`保存，然后关闭你的文本编辑器。
+然后，**你需要在弹出的文本编辑器中填写你的新消息**，记得`Ctrl + s`保存，然后关闭你的文本编辑器。
 
-然后你需要在cursor执行命令的地方，按下一个回车，这是在告诉它：我把消息写完了。
+然后**你需要在cursor执行命令的地方，按下一个回车**，这是在告诉它：我把消息写完了。
 
 cursor会按照你的新消息继续执行。
 
