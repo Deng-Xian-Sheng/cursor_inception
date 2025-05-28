@@ -27,7 +27,7 @@ def open_editor_and_get_input():
         else:
             raise OSError(f"Unsupported OS: {system_type}")
 
-        input("编辑器已打开，请编辑文件并保存后按 Enter 键继续...")
+        input()
 
         with open(tmp_path, 'r', encoding='utf-8') as f:
             content = f.read()
